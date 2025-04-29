@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100%;
+    background-color: #0f172a;
+    color:#e2e8f0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    position: fixed;
+    height: 100vh;
+    flex: 0 0 40%;
+    padding: 5%;
+    overflow-y: auto;
+    width: 30rem;
+    
+}
+h1{
+    font-size: 2vw; 
+    margin-bottom: 2vh;
+}
+
+.propos{
+    margin-top: 4rem;
+    list-style: none;
+}
+.propos li{
+    margin-bottom: 3vh;
+}
+.propos li a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    transition: color 0.3s ease;
+}
+.reseau{
+    margin-top: 4rem;
+}
+
+p{
+    color: #94a3b8 ;
+}
+
+.detail{
+    margin-left: 40%;
+    padding: 5%;
+    width: 60%;
+}
+
+#apropos p{
+   margin-top: 1rem;
+}
+#formation h3, #formation h4{
+    margin-top: 1rem;
+}
+
+#competance{
+    margin-top: 5.125rem;
+}
+
+.skill{
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+.barre{
+    width: 100%;
+    height: 0.40rem;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    background-color: #03224c;
+}
+.progression{
+    height: 100%;
+    border-radius: 10px;
+    background-color: #e2e8f0;
+}
+
+#formation{
+    margin-top: 5rem;
+}
+
+.reseau p{
+    padding-top: 1rem;
+}
+
+
+
+@media (max-width: 768px){
+    .menu{
+        position: relative;
+        
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+        
+        
+        flex: 0 0 100%;
+        padding: 5%;
+        
+    }
+    .detail{
+        margin-left: 0;
+        width: 100%;
+        padding: 0.8rem;
+    }
+    .h1, h2, h3, h5,p, .menu li a{
+        font-size: 5vw;
+    } 
+    .moi{
+        position: relative;
+        max-width: 40rem;
+        width: 100%;
+    }
+
+}
